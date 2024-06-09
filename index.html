@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Infinite Scroll Image Gallery</title>
+  <link rel="stylesheet" type="text/css" href="styles.css" />
+</head>
+
+<body>
+  <div>
+    <label for="images-per-row">Images per row:</label>
+    <input type="range" id="images-per-row" min="3" max="6" value="3">
+  </div>
+  <div id="gallery" class="gallery"></div>
+  <div class="spinner" style="display: none;"></div>
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
