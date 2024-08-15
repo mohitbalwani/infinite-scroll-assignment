@@ -1,4 +1,4 @@
-const apiKey = '44294725-5647d237cd87ca3498ec2ee31'; // Replace with your Pixabay API key
+const apiKey = '<API_KEY>'; // Replace with your Pixabay API key
 let page = 1;
 let imagesPerRow = 3;
 const gallery = document.getElementById('gallery');
